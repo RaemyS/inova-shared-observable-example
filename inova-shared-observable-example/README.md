@@ -13,11 +13,17 @@ Das Beispiel unter http://localhost:4200/multiple-subscriptions zeigt diese Prob
 * Konsolen-Logs werden als Side-Effect mehrfach geschrieben, anstatt nur einmal pro Observable!
 
 
+## Aufgabe
+
+Die Komponente `MultipleSubscriptionsComponent` muss so angepasst werden, dass keine mehrfachen
+API-Aufrufe und Side-Effects mehr geschehen.
+
+
 ## Lösung
 
 * Mit Observables:
-http://localhost:4200/multiple-subscriptions-solution
+http://localhost:4200/multiple-subscriptions-solution (`MultipleSubscriptionsSolutionComponent`)
 
 * Mit BehaviorSubjects:
 http://localhost:4200/multiple-subscriptions-subject-solution
-(immer noch mehrere vervielfachte Side-Effect-Aufrufe)
+(`MultipleSubscriptionsSubjectSolutionComponent`, immer noch mehrere vervielfachte Side-Effect-Aufrufe)
